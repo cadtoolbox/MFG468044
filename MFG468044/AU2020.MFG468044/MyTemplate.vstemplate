@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SD124422_Job_Basic</Name>
+    <Description>AU Class SD124422: Basic Job Template, including configuration and setting files</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SD124422_Job_Basic</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.ico</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SD124422-Sample-02.csproj" File="SD124422-Sample-02.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="JobExtension.cs">JobExtension.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SD124422-Sample-02.vcet.config">SD124422-Sample-02.vcet.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.cs">Settings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.xml">Settings.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Util.cs">Util.cs</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
